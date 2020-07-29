@@ -1,7 +1,7 @@
 # Getting the base image for this simple node application
 FROM node:12-alpine
 # Adding maintainer info. This is optional
-MAINTAINER Dewan Ahmed (dewan.ishtiaque@hotmail.com)
+#MAINTAINER Dewan Ahmed (dewan.ishtiaque@hotmail.com)
 
 # Create app directory and use it as working directory
 RUN mkdir -p /usr/src/app
