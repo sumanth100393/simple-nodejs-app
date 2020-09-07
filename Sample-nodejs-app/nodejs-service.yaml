@@ -2,12 +2,10 @@ apiVersion: v1
 kind: Service
 metadata:
   name: sample-nodejs-app
-spec:
-  clusterIP: None #
+spec: 
   ports:
-  - port: 9090
-    protocol: TCP #
-    targetPort: 9090
+  - port: 80    
+    targetPort: 80
   selector:
     app: sample-nodejs-app
-  type: NodePort #
+  
