@@ -4,8 +4,8 @@ metadata:
   name: sample-nodejs-app
 spec:
   ports:
-  - port: 9090
-    targetPort: 9090
+  - port: 80
+    targetPort: 80
   selector:
     app: sample-nodejs-app
   
