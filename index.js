@@ -2,7 +2,7 @@ var express = require('express');
 var app = express();
 
 app.get('/', function (req, res) {
-  res.send('Kia ora from Auckland\n');
+  res.send(' Hi there ! I am using KNative tools !! \n');
 });
 
 var server = app.listen(3000, function () {
