@@ -2,7 +2,7 @@ var express = require('express');
 var app = express();
 
 app.get('/', function (req, res) {
-  res.send(' Hi there ! welcome to ARGOCD !! \n');
+  res.send(' Hi there ! iam using cloudnative!! \n');
 });
 
 var server = app.listen(3000, function () {
